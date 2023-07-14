@@ -42,6 +42,7 @@ form img{
 
 .container {
     flex-direction: column;
+   
     display: flex;
        height: 100%;
        /* justify-content: center; */
