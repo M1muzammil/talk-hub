@@ -1,61 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="../talk-hub/login.css">
-</head>
-<body class="b1">
-   
-    
+    <link rel="stylesheet" href="../talk-hub/login.css" />
+  </head>
+  <body class="b1">
     <nav class="main">
-        <h1 id="lh1">
-            TALK-HUB
-        </h1>
+      <h1 id="lh1">TALK-HUB</h1>
 
-
-        <p id="lp1">
-            <a href="./signup/signup.html">Sign_up</a>
-
-        </p>
-
-
-
+      <p id="lp1">
+        <a href="./hub/signup.html">Sign_up</a>
+      </p>
     </nav>
 
-
-
-
-
     <form>
+      <div class="login">
+        <p>
+          email <br />
+          <input id="email" type="email" />
+        </p>
+        <p>
+          password <br />
+          <input id="password" type="password" />
+        </p>
 
-
-        <div class="login">
-            <p>email <br> <input id="email" type="email"></p>
-            <p>password <br> <input id="password" type="password">
-            </p>
-
-            <button type="submit" id="login">log_in</button>
-
-
-        </div>
-
-
+        <button type="submit" id="login">log_in</button>
+      </div>
     </form>
+  </body>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
 
-   
-
-
-
-
-
-
-
-</body>
-<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
-<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
-<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
-
-<script src="../talk-hub/login.js"></script>
+  <script src="../talk-hub/login.js"></script>
 </html>
